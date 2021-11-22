@@ -1,4 +1,9 @@
 <?php
-  echo "5 + 5";
-  echo 5 + 5;
+  $fruit = "パイナップル";
+  echo $fruit
+?>
+
+<?php
+  $sum = 5 + 5;
+  echo $sum;
 ?>

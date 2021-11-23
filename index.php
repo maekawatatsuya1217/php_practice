@@ -1,8 +1,11 @@
 <?php
 
-    for ($sum = 51; $sum <= 100; $sum++) {
-      echo $sum;
-      echo "<br>";
-    };
+    $i = 2;
+    
+    while ($i <= 100) {
+      echo $i;
+      $i += 2;
+      echo '<br>';
+    }
     
 ?>

@@ -1,11 +1,11 @@
 <?php
 
-    $i = 2;
-    
-    while ($i <= 100) {
-      echo $i;
-      $i += 2;
-      echo '<br>';
-    }
-    
+for ($i = 1; $i <= 1000; $i ++) {
+  if ($i >= 501) {
+    break;
+  }
+  echo $i;
+  echo '<br>';
+}
+
 ?>

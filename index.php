@@ -1,11 +1,10 @@
 <?php
 
-    for ($i = 1; $i <= 1000; $i++) {
-      if ($i % 3 == 0) {
-        continue;
-      }
-      echo $i;
-      echo '<br>';
+    $scores = array('数学' => 70, '英語' => 90, '国語' => 80);
+
+    // この下にforeach文を書いてください
+    foreach ($scores as $key => $value) {
+      echo "{$key}は{$value}点です。";
     }
     
 ?>

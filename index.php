@@ -1,5 +1,9 @@
 <?php
-  echo "Hello, PHP";
-  echo '<br>';
-  echo "10 + 7";
+$name = 'Tom';
+echo '変数$nameの値: '.$name;
+echo '<br>';
+echo '-----';
+echo '<br>';
+
+echo "My name is {$name}";
 ?>

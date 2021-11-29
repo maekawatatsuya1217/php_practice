@@ -1,20 +1,17 @@
 <?php
 
-    $str = 'progate';
+function hello() {
+  echo "Hello, world!";
+}
 
-    // strlenを用いて$strの長さをechoしてください
-    echo strlen($str);
-    
-    echo '<br>';
-    
-    $array = array('HTML', 'CSS', 'PHP');
+hello();
 
-    // countを用いて$arrayの要素数をechoしてください
-    echo count($array);
-    
-    echo '<br>';
-    echo rand(10, 15);
-    // randを用いて10から15までのランダムな数字をechoしてください
-    
-    
+echo '<br>';
+
+function printRectangleArea($height, $width) {
+  echo $height * $width;
+}
+
+printRectangleArea(5, 10);
+
 ?>

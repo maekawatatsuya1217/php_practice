@@ -1,17 +1,11 @@
 <?php
 
-function hello() {
-  echo "Hello, world!";
-}
-
-hello();
-
-echo '<br>';
-
-function printRectangleArea($height, $width) {
-  echo $height * $width;
-}
-
-printRectangleArea(5, 10);
-
+    function getCircleArea($radius) {
+      return $radius * $radius * 3;
+    }
+    
+    $circleArea = getCircleArea(5);
+    
+    echo $circleArea;
+    
 ?>
